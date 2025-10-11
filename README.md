@@ -70,7 +70,7 @@ Get your free API key from [WeatherAPI.com](https://www.weatherapi.com/) and rep
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Note: This is a pet project to demonstrate Android development skills. It is not intended for commercial use
 
 ## 🤝 Contributing
 
