@@ -49,7 +49,7 @@ import org.json.JSONObject
 
 @Preview(showBackground = true)
 @Composable
-fun MainCard(currentDay: MutableState<WeatherModel>) {
+fun MainCard(currentDay: MutableState<WeatherModel>, onClickSync: () -> Unit, onClickSearch: () -> Unit) {
 
     Column(
         modifier = Modifier
@@ -118,7 +118,7 @@ fun MainCard(currentDay: MutableState<WeatherModel>) {
 
                 ) {
                     IconButton(onClick = {
-
+                        onClickSearch.invoke()
                     }) {
                         Icon(
                             painter = painterResource(R.drawable.ic_search),
@@ -134,6 +134,7 @@ fun MainCard(currentDay: MutableState<WeatherModel>) {
                     )
 
                     IconButton(onClick = {
+                        onClickSync.invoke()
 
                     }) {
                         Icon(
