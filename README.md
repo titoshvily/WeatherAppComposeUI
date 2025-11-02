@@ -1,3 +1,7 @@
+<img width="606" height="1280" alt="image" src="https://github.com/user-attachments/assets/b242384c-9757-4811-ba40-b25fa730b515" />
+
+
+
 ```markdown
 # 🌤️ Weather App Compose
 
@@ -19,9 +23,8 @@ A modern Android weather application built with Jetpack Compose and WeatherAPI.
 - WeatherAPI
 - Material Design 3
 
-## 📸 Screenshots
 
-*(Add your app screenshots here)*
+
 
 ## 🚀 Getting Started
 
